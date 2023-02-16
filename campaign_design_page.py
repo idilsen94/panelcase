@@ -9,8 +9,6 @@ class CampaignDesignPage(BasePage):
     ADD_NEW_VARIATION = (By.ID, "add-new-variation")
     ADD_NEW_VARIANT_BUTTON = (By.ID, "add-new-variation")
     TEMPLATE_LIST = (By.CLASS_NAME, 'template-list')
-    SELECT_INSTORY_TEMPLATE_BUTTON = (By.XPATH, '//*[@class="template-list"]'
-                                                '//*[text()="Single Story"] /ancestor::li//*[@class="btn-select"]')
     SELECT_INSTORY_TEMPLATE = (By.XPATH, '//*[@class ="template-list"]//li//*[text()="Single Story"]')
     OKBUTTON = (By.LINK_TEXT, 'OK')
     NOTIFICATION_CONFIRM = (By.CLASS_NAME, "inline-select-notification-confirm")
