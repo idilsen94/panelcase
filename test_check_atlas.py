@@ -10,7 +10,7 @@ from tests.base_test import BaseTest
 
 class MyStepsTest(BaseTest):
     email = "idil.sen@useinsider.com"
-    password = "sh3z5aafvE."
+    password = "*************************"
 
     def test_steps(self):
         login_page = LoginPage(self.driver)
